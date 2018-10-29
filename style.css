@@ -1,0 +1,43 @@
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.background{    
+    background-image: url("woodpanel.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: white;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+h2{
+    font-size: 3rem;
+    text-shadow: 1px 1px;
+}
+.about{
+    background: black;
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw; 
+    }
